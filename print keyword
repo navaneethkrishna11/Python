@@ -1,0 +1,8 @@
+print('ONE WAY OF PRINTING')
+print("SECOND WAY OF PRINTING")
+
+
+#     OUTPUT
+#   ----------
+# ONE WAY OF PRINTING
+# SECOND WAY OF PRINTING
