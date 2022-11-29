@@ -1,0 +1,13 @@
+print('SUM OF TWO NUMBER USING SIMPLE METHOD')
+print(3+6+9)
+
+print('Sum of two number using Second  method')
+a=11+3+6+9
+print(a)
+
+#      OUTPUT
+#  -----------------
+#SUM OF TWO NUMBER USING SIMPLE METHOD
+#18
+#Sum of two number using Second  method
+#29
