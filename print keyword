@@ -1,8 +1,16 @@
 print('ONE WAY OF PRINTING')
+
 print("SECOND WAY OF PRINTING")
 
+a=9
+print(a)
+
+name="third method of printing"
+print(name)
 
 #     OUTPUT
 #   ----------
 # ONE WAY OF PRINTING
 # SECOND WAY OF PRINTING
+# 9
+# third method of printing
