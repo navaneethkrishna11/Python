@@ -1,0 +1,18 @@
+print('DIFFERENT TYPES IN JAVA :')
+aa=369
+name='NIVIN PAULY'
+phy= True
+bb=0.369
+
+print(type(aa))
+print(type(bb))
+print(type(name))
+print(type(phy))
+
+#   OUTPUT
+# -----------
+#DIFFERENT TYPES IN JAVA :
+#<class 'int'>
+#<class 'float'>
+#<class 'str'>
+#<class 'bool'>
