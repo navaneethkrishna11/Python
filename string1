@@ -1,0 +1,38 @@
+#  Python string functions
+
+text= ' welcome to python '
+print(text)
+#in this code the output gives us exactly how we mention the things in varible text
+
+text= ' welcome to python '
+print(text.strip())
+#In this code the output gives us by removing all the free spaces
+
+text= ' welcome to python '
+print(len(text))
+#In this code we can see the total number of words in the text given in corresponding variable
+
+text= ' WELCOME TO PYTHON '
+print(text.lower())
+#In this code the output gives us in small letter
+
+text= ' welcome to python '
+print(text.upper())
+#In this code the output gives us in caps letter
+
+text= ' welcome to python '
+print(text.replace("e","y"))
+#here in this code we can replace letter
+
+a= 'last'
+b='word'
+c=a+b
+print(c)
+#here the strings will combine
+
+a='nivin'
+b= 'hi guyz , iam {} pauly'
+print(b.format(a))
+#here we can add words to the sentence with the help of placeholder
+
+ 
