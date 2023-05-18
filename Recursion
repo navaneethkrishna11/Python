@@ -1,0 +1,14 @@
+#function calling inside a function is called recursion
+
+def recursion(n):
+    if n <= 1:
+        return n
+    else:
+        return n + recursion(n -  1)
+s = recursion(11)
+print(s)
+
+
+#output
+#---------
+# 66
