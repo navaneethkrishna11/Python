@@ -1,0 +1,7 @@
+#printing numbers from 0-30
+for x in range(31):
+    print(x)
+    
+#printing numbers from a range 11-15
+for i in range(11,16):
+    print(i)
