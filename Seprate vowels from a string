@@ -1,0 +1,8 @@
+n=input("enter a string : ")
+a=""
+b='aeiouAEIOU'
+for i in  (n):
+    if i not in b:
+        a=str(a+i)
+
+print(a)
