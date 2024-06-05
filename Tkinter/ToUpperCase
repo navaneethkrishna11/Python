@@ -1,0 +1,30 @@
+from tkinter import *
+t=Tk()
+
+def smalltocaps():
+    input1=str(input_entry.get())
+    convert1=input1.upper()
+    output_entry.insert(0,convert1)
+
+
+
+textmsg=Label(t,text='Input')
+textmsg.grid(row=0,column=1)
+
+output=Label(t,text='Output')
+output.grid(row=1,column=1)
+
+input_entry=Entry(t)
+input_entry.grid(row=0,column=2)
+
+output_entry=Entry(t)
+output_entry.grid(row=1,column=2)
+
+convert=Button(t,text='Convert',command=smalltocaps)
+convert.grid(row=5,column=2)
+
+
+
+
+
+t.mainloop()
