@@ -1,0 +1,60 @@
+from tkinter import *
+root=Tk()
+root.geometry('700x400')
+
+def fahrenheit_to_celsius():
+    try:
+        fahrenheit = float(fahrenheit_entry.get())
+        celsius = (fahrenheit - 32) * 5.0/9.0
+        celsius_entry.delete(0, END)
+        celsius_entry.insert(0,celsius)
+    except ValueError:
+        celsius_entry.delete(0, END)
+        celsius_entry.insert(0, "Invalid input")
+def celsius_to_fahrenheit():
+    try:
+        celsisus=float(celsius_entry.get())
+        fahrenheit=celsisus*9/5+32
+        fahrenheit_entry.delete(0,END)
+        fahrenheit_entry.insert(0,fahrenheit)
+    except ValueError:
+        celsius_entry.delete(0, END)
+        celsius_entry.insert(0, "Invalid input")
+
+
+
+fahrenheit_label = Label(root, text="Fahrenheit")
+fahrenheit_label.grid(row=0, column=0, padx=10, pady=5)
+
+celsius_label = Label(root, text="Celsius")
+celsius_label.grid(row=0, column=1, padx=10, pady=5)
+
+fahrenheit_entry = Entry(root)
+fahrenheit_entry.grid(row=1, column=0, padx=10, pady=5)
+fahrenheit_entry.insert(0, "32")
+
+celsius_entry = Entry(root)
+celsius_entry.grid(row=1, column=1, padx=10, pady=5)
+celsius_entry.insert(0, "0.0")
+
+# Create buttons for conversion
+to_celsius_button = Button(root, text=">>>>",command=fahrenheit_to_celsius)
+to_celsius_button.grid(row=2, column=0, padx=10, pady=5)
+
+to_fahrenheit_button = Button(root, text="<<<<",command=celsius_to_fahrenheit)
+to_fahrenheit_button.grid(row=2, column=1, padx=10, pady=5)
+
+
+root.mainloop()
+
+
+
+
+
+
+
+
+
+
+
+
